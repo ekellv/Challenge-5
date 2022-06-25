@@ -9,14 +9,16 @@ textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: rgb(67, 90, 59);
+  color: rgb(14, 43, 4);
   padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: rgb(10, 34, 2);
+  color: rgb(39, 91, 22);
   border-radius: 0;
   border-bottom: 10px solid rgb(76, 23, 1);
 }
@@ -49,7 +51,7 @@ h1 {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid rgb(136, 168, 9);
+  border-top: 1px solid rgb(156, 194, 8);
   border-radius: 15px;
 }
 
@@ -59,20 +61,22 @@ h1 {
   border: 1px solid #5b4902;
   border-radius: 15px 0px 0px 15px;
   padding-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #a67c11;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #d3b362;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #8da782;
   color: white;
 }
 
@@ -92,7 +96,7 @@ h1 {
 
 .clear-button {
   padding: 25px;
-  color: rgb(10, 34, 2);
+  color: rgb(37, 113, 11);
   background-color: #f3a20c;
   border-radius: 15px;
   border: 2px solid rgb(77, 77, 3);
