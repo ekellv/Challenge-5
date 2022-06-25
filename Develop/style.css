@@ -21,6 +21,22 @@ textarea{
   border-bottom: 10px solid rgb(76, 23, 1);
 }
 
+h1 {
+  padding-bottom: 5px;
+}
+
+.lead {
+  padding-bottom: 5px;
+}
+
+#currentDay {
+  font-size: 40px;
+  font-weight: 400;
+  color: #612107;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .description{
   white-space: pre-wrap;
 }
@@ -39,7 +55,7 @@ textarea{
 
 .hour {
   background-color: #f3a20c;
-  color: rgb(49, 12, 4);
+  color: rgb(40, 78, 21);
   border: 1px solid #5b4902;
   border-radius: 15px 0px 0px 15px;
   padding-top: 30px;
@@ -72,4 +88,13 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.clear-button {
+  padding: 25px;
+  color: rgb(10, 34, 2);
+  background-color: #f3a20c;
+  border-radius: 15px;
+  border: 2px solid rgb(77, 77, 3);
+  font-size: 18px;
 }
