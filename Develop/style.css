@@ -18,7 +18,7 @@ textarea{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: rgb(39, 91, 22);
+  color: rgb(17, 47, 7);
   border-radius: 0;
   border-bottom: 10px solid rgb(76, 23, 1);
 }
@@ -76,12 +76,11 @@ h1 {
 }
 
 .future {
-  background-color: #8da782;
+  background-color: #556440;
   color: white;
 }
 
 .saveBtn {
-  /* border-left: 1px solid black; */
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #c68817;
@@ -96,10 +95,10 @@ h1 {
 
 .clear-button {
   padding: 25px;
-  color: rgb(37, 113, 11);
+  color: rgb(140, 69, 15);
   background-color: #f3a20c;
   border-radius: 15px;
-  border: 2px solid rgb(77, 77, 3);
+  border: 2px solid rgb(21, 65, 6);
   font-size: 18px;
 }
 
