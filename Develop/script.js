@@ -1,5 +1,6 @@
 var todaysDate = moment().format("dddd, MMMM Do, YYYY");
 $("#currentDay").html(todaysDate);
+var currentHourBlock = moment().hour();
 
 // sets the current day & time in the currentDay html element using moment.js
 $(document).ready(function () {
@@ -8,20 +9,23 @@ $(document).ready(function () {
 
         $(".time-block").each( function () {  
             var currentHourBlock = moment().hour();
-            var taskHour = parseInt($(this).attr("id").split("hour")[1]);
+
+            var taskHour = $(this).attr("id").split("-")[1];
 
             if (taskHour == currentHourBlock) {
                 $(this).addClass("present");
+                $(this).removeClass("future");
             } else if (taskHour < currentHourBlock) {
                 $(this).removeClass("present");
-                $(this).addClass("future");
-            } else {
-                $(this).removeClass("future");
                 $(this).addClass("past");
+            } else {
+                $(this).removeClass("past");
+                $(this).addClass("future");
             }
-        });
+        })
     }
 
+    console.log(currentHourBlock);
 
     $(".saveBtn").click(function(event) {
         event.preventDefault();
