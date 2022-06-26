@@ -5,15 +5,7 @@ body {
   background-color: rgb(248, 230, 191);
 }
 
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: rgb(10, 36, 1);
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-}
+/* jumbotron styling  */
 
 .jumbotron {
   text-align: center;
@@ -23,8 +15,9 @@ textarea{
   border-bottom: 10px solid rgb(76, 23, 1);
 }
 
+
 h1 {
-  padding-bottom: 5px;
+  padding-bottom: 5px; /* added some padding to the jumbotron to space out elements a little bit  */
 }
 
 .lead {
@@ -38,6 +31,18 @@ h1 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: rgb(10, 36, 1);
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* time block & text area styling */
 
 .description{
   white-space: pre-wrap;
@@ -65,6 +70,8 @@ h1 {
   font-weight: 600;
 }
 
+/* hourColorCode styling */
+
 .past {
   background-color: #a67c11;
   color: white;
@@ -80,6 +87,7 @@ h1 {
   color: white;
 }
 
+/* button styling */
 .saveBtn {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -101,6 +109,8 @@ h1 {
   border: 2px solid rgb(21, 65, 6);
   font-size: 18px;
 }
+
+/* mobile device styling */
 
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
   .row {
